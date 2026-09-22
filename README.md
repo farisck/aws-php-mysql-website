@@ -107,3 +107,4 @@ aws-php-mysql-website/
 
 Git and GitHub practice project.
 This repository demonstrates version control using Git and GitHub.
+Branching practice.
