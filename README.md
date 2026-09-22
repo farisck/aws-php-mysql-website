@@ -28,17 +28,21 @@ The final application is a custom dark-themed portfolio website with a database-
 ## Technology Stack
 
 ### Frontend
+
 - HTML5
 - CSS3
 
 ### Backend
+
 - PHP
 - MySQLi
 
 ### Database
+
 - MySQL
 
 ### Infrastructure
+
 - AWS EC2
 - Ubuntu Server
 - Apache2
@@ -70,13 +74,17 @@ SSH access was restricted while HTTP and HTTPS were allowed for public website a
 
 The request flow is:
 
-Browser  
-→ ClouDNS  
-→ Apache over HTTPS  
-→ PHP  
-→ MySQL
-
-When a visitor submits the contact form, PHP processes the form data and stores the submission in the MySQL database.
+```text
+Browser
+    ↓
+ClouDNS
+    ↓
+Apache over HTTPS
+    ↓
+PHP
+    ↓
+MySQL
+```
 
 ## Project Structure
 
@@ -95,3 +103,4 @@ aws-php-mysql-website/
 ├── Internship-Task-5.pdf
 ├── .gitignore
 └── README.md
+```
