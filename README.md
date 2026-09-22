@@ -104,3 +104,5 @@ aws-php-mysql-website/
 ├── .gitignore
 └── README.md
 ```
+
+Git and GitHub practice project.
